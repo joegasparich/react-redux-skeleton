@@ -6,4 +6,17 @@
     h1 {
         text-align: center;
     }
+
+    .window-container {
+        width: 100%;
+        display: flex;
+        flex: 1;
+
+        .window {
+            border: 1px solid grey;
+            margin: 10px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+    }
 }

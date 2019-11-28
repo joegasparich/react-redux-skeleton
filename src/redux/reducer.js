@@ -1,7 +1,8 @@
-import { ADD_MESSAGE } from "./actions";
+import { ADD_MESSAGE } from './actions';
 
 const initialState = {
-    messages: []
+    messages: [],
+    users: []
 };
 
 const reducer = (state = initialState, action) => {
